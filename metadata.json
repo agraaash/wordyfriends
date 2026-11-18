@@ -1,0 +1,6 @@
+{
+  "name": "The Write Magic",
+  "description": "A magical digital writing playground where children look, imagine, write, learn with inline word-style AI feedback, and share with Aashna, featuring a private developer analytics dashboard.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

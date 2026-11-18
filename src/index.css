@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #FFF9FA;
+    color: #7D5A61;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Fredoka', 'Quicksand', sans-serif;
+  }
+}
+
+/* Custom Sleek Interface pastel scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF0F3;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFD1DC;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFB6C1;
+}
+
+/* Sleek Interface Card & Button Helpers */
+.sleek-card {
+  background: #FFFFFF;
+  border: 2px solid #FFE4E9;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px -2px rgba(255, 141, 161, 0.08);
+}
+
+.sleek-card-accent {
+  background: #FFF5F7;
+  border: 2px solid #FFD1DC;
+}
+
+.sleek-btn-primary {
+  background-color: #FFB6C1;
+  color: #FFFFFF;
+  font-weight: 700;
+  transition: all 0.15s ease;
+}
+
+.sleek-btn-primary:hover {
+  background-color: #FF8DA1;
+}
+
+.sleek-btn-secondary {
+  background-color: #FFFFFF;
+  border: 2px solid #FFE4E9;
+  color: #7D5A61;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+
+.sleek-btn-secondary:hover {
+  border-color: #FFB6C1;
+  background-color: #FFF9FA;
+}
+
